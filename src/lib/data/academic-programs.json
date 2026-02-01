@@ -1,0 +1,160 @@
+{
+  "departments": [
+    {
+      "code": "CAAS",
+      "name": "College of Agri-Fisheries and Allied Sciences",
+      "programs": [
+        {
+          "code": "BSFi",
+          "name": "Bachelor of Science in Fisheries"
+        },
+        {
+          "code": "BSMB",
+          "name": "Bachelor of Science in Marine Biology"
+        },
+        {
+          "code": "BAT",
+          "name": "Bachelor of Science in Agriculture Technology"
+        },
+        {
+          "code": "BSAF",
+          "name": "Bachelor of Science in Agroforestry"
+        }
+      ]
+    },
+    {
+      "code": "CAS",
+      "name": "College of Arts & Sciences",
+      "programs": [
+        {
+          "code": "BSMath",
+          "name": "Bachelor of Science in Mathematics"
+        },
+        {
+          "code": "BSES",
+          "name": "Bachelor of Science in Environmental Science"
+        },
+        {
+          "code": "BAEL",
+          "name": "Bachelor of Arts in English Language"
+        }
+      ]
+    },
+    {
+      "code": "COE",
+      "name": "College of Engineering",
+      "programs": [
+        {
+          "code": "BSCE",
+          "name": "Bachelor of Science in Civil Engineering"
+        },
+        {
+          "code": "BSEE",
+          "name": "Bachelor of Science in Electrical Engineering"
+        },
+        {
+          "code": "BSECE",
+          "name": "Bachelor of Science in Electronics Engineering"
+        },
+        {
+          "code": "BSCPE",
+          "name": "Bachelor of Science in Computer Engineering"
+        }
+      ]
+    },
+    {
+      "code": "CCIS",
+      "name": "College of Computing and Information Sciences",
+      "programs": [
+        {
+          "code": "BSCS",
+          "name": "Bachelor of Science in Computer Science"
+        },
+        {
+          "code": "BSIT",
+          "name": "Bachelor of Science in Information Technology"
+        },
+        {
+          "code": "BSIS",
+          "name": "Bachelor of Science in Information Systems"
+        }
+      ]
+    },
+    {
+      "code": "CTE",
+      "name": "College of Teacher Education",
+      "programs": [
+        {
+          "code": "BEEd",
+          "name": "Bachelor of Elementary Education"
+        },
+        {
+          "code": "BPEd",
+          "name": "Bachelor of Physical Education"
+        },
+        {
+          "code": "BTVTEd",
+          "name": "Bachelor of Technical-Vocational Teacher Education",
+          "majors": ["Food and Services Management"]
+        },
+        {
+          "code": "BSEd",
+          "name": "Bachelor of Secondary Education",
+          "majors": ["English", "Filipino", "Mathematics", "Sciences"]
+        }
+      ]
+    },
+    {
+      "code": "COT",
+      "name": "College of Technology",
+      "programs": [
+        {
+          "code": "BET",
+          "name": "Bachelor of Engineering Technology"
+        },
+        {
+          "code": "BAET",
+          "name": "Bachelor of Automotive Engineering Technology"
+        },
+        {
+          "code": "BEET",
+          "name": "Bachelor of Electrical Engineering Technology"
+        },
+        {
+          "code": "BEXET",
+          "name": "Bachelor of Electronics Engineering Technology"
+        },
+        {
+          "code": "BSHM",
+          "name": "Bachelor of Science in Hospitality Management"
+        },
+        {
+          "code": "BSTM",
+          "name": "Bachelor of Science in Tourism Management"
+        },
+        {
+          "code": "BMET",
+          "name": "Bachelor of Mechanical Engineering Technology",
+          "concentrations": [
+            "Mechanical Technology (BMET-MT)",
+            "Refrigeration and Air-conditioning Technology (BMET-RACT)",
+            "Welding and Fabrication Technology (BMET-WAFT)"
+          ]
+        },
+        {
+          "code": "BIndTech",
+          "name": "Bachelor in Industrial Technology",
+          "majors": [
+            "Architectural Drafting (ADT)",
+            "Automotive Technology (AT)",
+            "Electrical Technology (ELT)",
+            "Electronics Technology (ELEX)",
+            "Mechanical Technology (BIndTech-MT)",
+            "Heating, Ventilating & Air-conditioning Technology (HVACR)",
+            "Welding & Fabrication Technology (WAFT)"
+          ]
+        }
+      ]
+    }
+  ]
+}

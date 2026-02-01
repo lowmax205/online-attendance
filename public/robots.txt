@@ -1,0 +1,14 @@
+# robots.txt for Event Attendance System
+# Allow all crawlers, but keep auth and API paths out
+User-agent: *
+Allow: /
+
+# Block sensitive or non-indexable areas
+Disallow: /api/
+Disallow: /auth/
+Disallow: /attendance/
+Disallow: /dashboard/
+Disallow: /profile/
+
+# Point to sitemap
+Sitemap: /sitemap.txt

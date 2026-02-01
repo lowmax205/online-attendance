@@ -1,0 +1,9 @@
+# Simple sitemap for Event Attendance System
+# Add/adjust routes as needed
+/
+/updates
+/auth/login
+/auth/register
+/events
+/dashboard
+/profile

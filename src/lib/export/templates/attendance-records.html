@@ -1,0 +1,310 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>{{TITLE}}</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      html,
+      body {
+        width: 100%;
+        height: 100%;
+      }
+
+      body {
+        font-family: Arial, sans-serif;
+        font-size: 12px;
+        line-height: 1.4;
+        color: #333;
+      }
+
+      .container {
+        width: 100%;
+        margin: 0;
+        padding: 8px;
+        display: flex;
+        flex-direction: column;
+      }
+
+      .header {
+        text-align: center;
+        margin-bottom: 4px;
+        border-bottom: 2px solid #333;
+        padding-bottom: 4px;
+        page-break-after: avoid;
+        page-break-inside: avoid;
+        flex-shrink: 0;
+      }
+
+      .header-content {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 20px;
+      }
+
+      .header-logo {
+        flex-shrink: 0;
+        width: 60px;
+        height: 60px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+
+      .header-logo img {
+        max-width: 100%;
+        max-height: 100%;
+        object-fit: contain;
+      }
+
+      .header-title {
+        flex-grow: 1;
+        text-align: center;
+      }
+
+      .header h1 {
+        font-size: 15px;
+        font-weight: bold;
+        margin-bottom: 1px;
+      }
+
+      .header p {
+        font-size: 10px;
+        color: #666;
+        margin: 0;
+      }
+
+      .info-section {
+        margin-bottom: 2px;
+        font-size: 9px;
+        page-break-after: avoid;
+        page-break-inside: avoid;
+        flex-shrink: 0;
+      }
+
+      .info-item {
+        margin: 0.5px 0;
+      }
+
+      .info-label {
+        font-weight: bold;
+        display: inline-block;
+        width: 120px;
+        font-size: 10px;
+      }
+
+      table {
+        width: 100%;
+        border-collapse: collapse;
+        margin-top: 1px;
+        font-size: 10px;
+        page-break-inside: auto;
+      }
+
+      thead {
+        background-color: #f0f0f0;
+        font-weight: bold;
+      }
+
+      th {
+        border: 1px solid #999;
+        padding: 4px;
+        text-align: left;
+        background-color: #e8e8e8;
+        font-size: 9px;
+      }
+
+      td {
+        border: 1px solid #ccc;
+        padding: 3px 4px;
+      }
+
+      td img {
+        max-height: 40px;
+        max-width: 100px;
+        display: block;
+      }
+
+      tbody tr {
+        page-break-inside: avoid;
+      }
+
+      tbody tr:nth-child(odd) {
+        background-color: #f9f9f9;
+      }
+
+      .footer {
+        margin-top: 20px;
+        text-align: center;
+        font-size: 10px;
+        color: #999;
+        border-top: 1px solid #ccc;
+        padding-top: 10px;
+        page-break-before: avoid;
+        page-break-inside: avoid;
+      }
+
+      .footer p {
+        margin: 2px 0;
+      }
+
+      @media print {
+        html,
+        body {
+          margin: 0;
+          padding: 0;
+          width: 100%;
+          height: 100%;
+        }
+
+        .container {
+          width: 100%;
+          margin: 0;
+          padding: 6mm;
+          page-break-after: avoid;
+          display: flex;
+          flex-direction: column;
+        }
+
+        .header {
+          margin-bottom: 2px;
+          padding-bottom: 2px;
+          page-break-after: avoid;
+          page-break-inside: avoid;
+          flex-shrink: 0;
+        }
+
+        .info-section {
+          margin-bottom: 1px;
+          page-break-after: avoid;
+          page-break-inside: avoid;
+          flex-shrink: 0;
+        }
+
+        table {
+          margin-top: 0;
+          page-break-inside: auto;
+        }
+
+        thead {
+          display: table-header-group;
+          page-break-inside: avoid;
+          page-break-after: avoid;
+        }
+
+        tbody {
+          page-break-inside: auto;
+        }
+
+        tbody tr {
+          page-break-inside: avoid;
+          page-break-after: auto;
+        }
+
+        .footer {
+          margin-top: 10px;
+          padding-top: 6px;
+          page-break-before: auto;
+          page-break-inside: avoid;
+        }
+
+        /* Page size settings - users can select in print dialog */
+        @page {
+          margin: 6mm;
+          size: auto;
+        }
+
+        /* A4 size (210 x 297mm) */
+        @page A4 {
+          size: A4;
+          margin: 6mm;
+        }
+
+        /* Long/Legal size (8.5 x 13 inches = 215.9 x 330.2mm) */
+        @page long {
+          size: 8.5in 13in;
+          margin: 6mm;
+        }
+      }
+
+      /* Hide scrollbars in print preview */
+      @media print {
+        ::-webkit-scrollbar {
+          display: none;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="header">
+        <div class="header-content">
+          <div class="header-logo">
+            <img src="{{SYSTEM_LOGO}}" alt="System Logo" />
+          </div>
+          <div class="header-title">
+            <h1>Event Attendance System</h1>
+            <p>Surigao del Norte State University</p>
+          </div>
+          <div class="header-logo">
+            <img src="{{UNIVERSITY_LOGO}}" alt="University Logo" />
+          </div>
+        </div>
+      </div>
+
+      <div class="info-section">
+        <div class="info-item">
+          <span class="info-label">Course/Program:</span>
+          <strong>{{COURSE_NAME}}</strong>
+        </div>
+        <div class="info-item">
+          <span class="info-label">Campus:</span>
+          {{CAMPUS_INFO}}
+        </div>
+        <div class="info-item">
+          <span class="info-label">Report Type:</span>
+          {{REPORT_TYPE}}
+        </div>
+        <div class="info-item">
+          <span class="info-label">Total Records:</span>
+          {{TOTAL_RECORDS}}
+        </div>
+        <div class="info-item">
+          <span class="info-label">Export Date:</span>
+          {{EXPORT_DATE}}
+        </div>
+      </div>
+
+      <table>
+        <thead>
+          <tr>
+            <th>Student ID</th>
+            <th>Name</th>
+            <th>Course/Program</th>
+            <th>Department</th>
+            <th>{{TIME_LABEL}} Time</th>
+            <th>{{SIGNATURE_LABEL}} Signature</th>
+          </tr>
+        </thead>
+        <tbody>
+          {{TABLE_ROWS}}
+        </tbody>
+      </table>
+
+      <div class="footer">
+        <p>
+          This document was automatically generated by the Event Attendance
+          System.
+        </p>
+        <p>For inquiries or corrections, please contact the administration.</p>
+      </div>
+    </div>
+  </body>
+</html>
