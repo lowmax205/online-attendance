@@ -1,0 +1,47 @@
+# Dependencies
+node_modules
+.next
+.vercel
+.turbo
+
+# Build outputs
+out
+dist
+build
+
+# Generated files
+.contentlayer
+.astro
+
+# Environment variables
+.env
+.env.local
+.env.production.local
+.env.development.local
+
+# Logs
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode
+.idea
+
+# Prisma
+prisma/migrations
+
+# Other
+coverage
+.cache
+
+# Spec files (optional - keep original formatting)
+specs/**/*.md
+.github/prompts/**/*.md
+.specify/**/*.md
+README.md
+.docs/
+specs/
+scripts/

@@ -1,0 +1,63 @@
+Copyright Info Sheet
+
+Student 1
+
+Firstname: Nilo Jr.
+Middle Name: N/A
+Lastname: Olang
+Suffix: N/A
+Nationality: Filipino
+Birthdate: February 7, 2000
+Sex: Male
+Civil Status: Single
+Address: National Highway, Km3, Barangay: Luna
+Municipality/City: Surigao City
+Province: Surigao del Norte
+Region: Caraga
+Country: Philippines
+ZIP Code: 8400
+Email Address: nilojr.olang@gmail.com
+Contact Number: 09760361218
+
+
+Copyright Info Sheet
+
+Student 2
+Firstname:  Cricedine 
+Middle Name: Pauliño 
+Lastname: Peñaranda
+Suffix: N/A
+Nationality: Filipino
+Birthdate: December 28, 1999
+Sex: Female
+Civil Status: Single
+Address: Purok 8 Cayutan, Barangay: Cagniog 
+Municipality/City: Surigao City
+Province: Surigal del Norte
+Region: Caraga
+Country: Philippines
+ZIP Code: 8400
+Email Address: cricedinepaulino@gmail.com
+Contact Number: 09507036289
+
+
+Copyright Info Sheet
+
+Adviser (Name Ra) no need to input
+
+Firstname: Unife
+Middle Name: Odvina
+Lastname: Cagas
+Suffix:
+Nationality:
+Birthdate:
+Sex:
+Civil Status:
+Address: Street, Purok, Barangay:
+Municipality/City:
+Province:
+Region:
+Country:
+ZIP Code:
+Email Address:
+Contact Number:
